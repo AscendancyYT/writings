@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #111827;
+}
+
+.container .navbar{
+  width: 100%;
+  height: 10%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .navbar .logo{
+  font-size: xx-large;
+  margin-left: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
